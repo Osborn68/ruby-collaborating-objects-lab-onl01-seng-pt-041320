@@ -25,5 +25,10 @@ def songs
   Song.all.select {|s| s.artist == self}
 end 
 
+def self.find_or_create_by_name(name)
+  Artist.all.find(name) || name=(name)
+end 
+
+
 
 end
