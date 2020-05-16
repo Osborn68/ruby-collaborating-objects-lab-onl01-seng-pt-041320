@@ -30,7 +30,7 @@ def self.find_or_create_by_name(name)
 end 
 
 def print_songs 
-  Song.all.select {|s| s.artist == self}
+  Song.all.select {|s| puts s.name}
 end
 
 
