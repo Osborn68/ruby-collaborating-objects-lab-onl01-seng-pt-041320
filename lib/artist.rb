@@ -26,7 +26,7 @@ def songs
 end 
 
 def self.find_or_create_by_name(name)
-   self.find(name) || name=(name)
+   self.all.find {|n| n.artist || name=(name)
 end 
 
 
