@@ -29,6 +29,9 @@ def self.find_or_create_by_name(name)
    self.all.find {|a| a.name == name} || self.new(name)
 end 
 
+def print_songs 
+  Song.all.select {|s| s.artist == self}
+end
 
 
 end
