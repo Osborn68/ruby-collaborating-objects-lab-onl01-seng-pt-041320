@@ -9,7 +9,7 @@ class Song
     save
   end
   
-  def artist_name=(artist)
+  def artist=(artist)
     @artist = artist
   end 
   
