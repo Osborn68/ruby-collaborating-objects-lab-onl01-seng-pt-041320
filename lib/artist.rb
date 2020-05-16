@@ -21,4 +21,9 @@ def add_song(song)
   song.artist = self 
 end 
 
+def songs 
+  songs.all.select {|s| s.artist == self}
+end 
+
+
 end
