@@ -18,7 +18,9 @@ class Song
   end
   
   def self.new_by_filename(filename)
-    
+    artist 
+    song_name 
+    file_ext
   end
   
 end 
