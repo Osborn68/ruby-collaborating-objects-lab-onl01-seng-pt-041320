@@ -18,5 +18,7 @@ def self.all
 end 
 
 def add_song
-  
+  song.artist = self 
+end 
+
 end
