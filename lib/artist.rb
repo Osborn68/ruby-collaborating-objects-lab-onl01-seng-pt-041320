@@ -22,7 +22,7 @@ def add_song(song)
 end 
 
 def songs 
-  songs.all.select {|s| s.artist == self}
+  Song.all.select {|s| s.artist == self}
 end 
 
 
