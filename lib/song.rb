@@ -9,9 +9,6 @@ class Song
     save
   end
   
-  def artist=(artist)
-    @artist = artist
-  end 
   
   
   def save 
